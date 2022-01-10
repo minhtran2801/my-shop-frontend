@@ -42,7 +42,7 @@ export const signOutUser = (next) => {
       method: "GET",
     })
       .then((response) => {
-        console.log("signout", response);
+        console.log("Signed out successfully!");
       })
       .catch((err) => console.log(err));
   }

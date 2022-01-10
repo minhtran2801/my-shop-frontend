@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import mapboxgl from "mapbox-gl";
+import mapboxgl from "!mapbox-gl";
 
 const ShopMap = () => {
   mapboxgl.accessToken =
