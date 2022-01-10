@@ -1,0 +1,88 @@
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  overflow-y: auto;
+}
+
+.grid-box {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+
+.bg-image {
+  width: 100%;
+  height: 100vh;
+  grid-row: 1;
+  grid-column: 1;
+  position: sticky;
+  top: 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../assets/carousel/hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.center-box {
+  z-index: 0;
+  grid-row: 1;
+  grid-column: 1;
+  margin: 0 auto;
+}
+
+.card {
+  border-radius: 15px;
+  overflow: auto;
+}
+
+.btn:focus,
+.btn:active,
+.form-control:focus,
+.form-select:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+.authbtn:hover {
+  /* fallback for old browsers */
+  background: #84fab0;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(
+    to right,
+    rgba(132, 250, 176, 1),
+    rgba(143, 211, 244, 1)
+  );
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(
+    to right,
+    rgba(132, 250, 176, 1),
+    rgba(143, 211, 244, 1)
+  );
+}
+
+.invalidText {
+  color: red;
+  white-space: pre-line;
+}
+
+.validText {
+  color: black;
+}
+
+.validBorder {
+  border: 1px solid #ced4da;
+}
+.invalidBorder {
+  border: 1px solid red;
+}
+
+.anchor-link {
+  text-decoration: none;
+}
+
+.anchor-link:hover {
+  text-decoration: underline;
+}

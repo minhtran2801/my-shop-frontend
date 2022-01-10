@@ -1,0 +1,104 @@
+.modal-backdrop {
+  z-index: 0;
+}
+
+.item-name {
+  margin-bottom: 3px;
+}
+
+.item-name-bold {
+  margin-bottom: 3px;
+  font-weight: bold;
+}
+
+.quantity-modifier {
+  width: 90px;
+  display: flex;
+  background: #fff;
+  position: relative;
+}
+
+.quantity-input {
+  border-top: 1px solid #212529;
+  border-bottom: 1px solid #212529;
+}
+
+.quantity-input:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: inherit;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+.remove-item {
+  color: #495057;
+}
+
+.remove-item:hover {
+  color: #212529;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.offcanvas-body::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+
+.thankyou-icon {
+  font-size: 100px;
+  color: green;
+}
+
+.thankyou-modal {
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.thankyou-title {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.thankyou-text {
+  font-size: 20px;
+}
+
+.loading-overlay {
+  display: none;
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 9998;
+  align-items: center;
+  justify-content: center;
+}
+
+.loading-overlay.is-active {
+  display: flex;
+  flex-direction: column;
+}
+
+.loading-text {
+  color: white;
+  padding-top: 20px;
+  font-size: 25px;
+}
+
+.form-check-input:checked {
+  background-color: black;
+  border-color: black;
+}
+
+.form-check-input.is-valid:checked,
+.was-validated .form-check-input:valid:checked {
+  background-color: black;
+}
+
+.form-check-input.is-valid ~ .form-check-label,
+.was-validated .form-check-input:valid ~ .form-check-label {
+  color: unset;
+}

@@ -1,0 +1,76 @@
+.nav-item {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.nav-cart .group:hover,
+.nav-link:hover {
+  color: white !important;
+}
+
+.navbar-brand img {
+  height: auto;
+  width: auto;
+  max-height: 50px;
+  max-width: 400px;
+}
+
+.navbar-nav .dropdown-menu {
+  position: absolute;
+}
+
+.nav-searchBar {
+  width: 40%;
+}
+.nav-icons {
+  color: #b0aeae;
+  font-size: 20px;
+}
+
+.vr {
+  color: white;
+  height: 28px;
+  margin-top: 12px;
+  opacity: 100;
+}
+
+.sr-only {
+  position: absolute;
+  margin: -1px 0 0 -1px;
+  padding: 0;
+  display: block;
+  width: 1px;
+  height: 1px;
+  font-size: 1px;
+  line-height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+  outline: 0;
+}
+
+#search-icon {
+  background-color: white;
+}
+
+datalist {
+  display: none !important;
+}
+
+[list]::-webkit-calendar-picker-indicator {
+  display: none !important;
+}
+
+.autocomplete-search {
+  display: block;
+  background-color: white;
+  color: white;
+  overflow-y: auto;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+  background-color: white !important;
+}
