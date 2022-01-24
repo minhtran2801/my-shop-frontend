@@ -8,7 +8,6 @@ const ProductFilters = ({ categories, handleFilters }) => {
   });
 
   const handleFiltersChange = (filters_param, filterBy_param) => {
-    //console.log("SH", filters_param, filterBy_param);
     const newFilters = { ...filterState };
     newFilters.filters[filterBy_param] = filters_param;
     setFilterState(newFilters);
