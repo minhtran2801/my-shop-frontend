@@ -71,7 +71,7 @@ const ProductList = () => {
     window.scrollTo({ top: 0, behavior: "instant" });
   }, [pageState]);
 
-  const handleFilters = (e) => (filters_param) => {
+  const handleFilters = (filters_param) => {
     setFilterState(filters_param);
     loadFilteredProducts(filters_param, sortByState);
   };
