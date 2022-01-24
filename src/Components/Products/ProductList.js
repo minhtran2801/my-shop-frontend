@@ -72,7 +72,6 @@ const ProductList = () => {
   }, [pageState]);
 
   const handleFilters = (e) => (filters_param) => {
-    e.preventDefault();
     setFilterState(filters_param);
     loadFilteredProducts(filters_param, sortByState);
   };
